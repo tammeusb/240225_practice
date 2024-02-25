@@ -9,3 +9,7 @@ both.addEventListener('click', message);
 function message() {
     alert("what's the difference???");
 }
+
+document.addEventListener('keypress', (e) => {
+    alert(`I didn't tell you to press ${e.key}...`);
+})

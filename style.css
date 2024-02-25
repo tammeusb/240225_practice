@@ -3,23 +3,18 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: lightgoldenrodyellow;
     padding: 50px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-body * {
-    flex: 1;
 }
 
 .button-container {
     border: 2px solid sandybrown;
-    width: 400px;
     padding: 20px;
     margin: 0 auto;
+    flex: 1;
 }
 
 .button-container > button {
