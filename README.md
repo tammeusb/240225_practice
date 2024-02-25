@@ -1,0 +1,1 @@
+DOM manipulation practice using event handlers
